@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8716113-4DC6-4853-8138-7AF4A37593AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{918A3D7A-740A-4E8C-8A4D-4B985C1F4CA0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OpgWebApi", "src\OpgWebApi\OpgWebApi.xproj", "{8B0FBF51-6292-4D3E-BA4E-EECD879B1B36}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConsoleApp1", "src\ConsoleApp1\ConsoleApp1.xproj", "{8BB663B6-953B-46A2-AFC2-A0E2C0279874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B0FBF51-6292-4D3E-BA4E-EECD879B1B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0FBF51-6292-4D3E-BA4E-EECD879B1B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0FBF51-6292-4D3E-BA4E-EECD879B1B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0FBF51-6292-4D3E-BA4E-EECD879B1B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB663B6-953B-46A2-AFC2-A0E2C0279874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB663B6-953B-46A2-AFC2-A0E2C0279874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB663B6-953B-46A2-AFC2-A0E2C0279874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB663B6-953B-46A2-AFC2-A0E2C0279874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B0FBF51-6292-4D3E-BA4E-EECD879B1B36} = {E8716113-4DC6-4853-8138-7AF4A37593AB}
+		{8BB663B6-953B-46A2-AFC2-A0E2C0279874} = {E8716113-4DC6-4853-8138-7AF4A37593AB}
+	EndGlobalSection
+EndGlobal
